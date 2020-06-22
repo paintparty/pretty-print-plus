@@ -13,6 +13,10 @@ Require into your project's `.core` or `.main` namespace
 [pretty-print-plus.core]
 ```
 
+Any data structures passed to `js/console.log` will appear in Chrome DevTools console will be pretty-printed in color with rainbow indent guides.
+
+Alpha.
+
 ## License
 
 Copyright © JC 2020
