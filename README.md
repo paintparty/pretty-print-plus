@@ -1,5 +1,4 @@
 ## Usage
-Pretty-printing in color.
 
 For use in ClojureScript projects.
 
@@ -10,11 +9,11 @@ For use in ClojureScript projects.
 Require into your project's `.core` or `.main` namespace
 
 ```Clojure
-[pretty-print-plus.core]
+(ns my.project.core
+ (:require [pretty-print-plus.core]))
 ```
 
-Any data structures passed to `js/console.log` will appear in Chrome DevTools console will be pretty-printed in color with rainbow indent guides.
-
+When using Chrome DevTools console, commonly used data structures passed to `js/console.log` will be pretty-printed in color with rainbow indent guides.
 Alpha.
 
 ## License
