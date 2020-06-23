@@ -3,7 +3,7 @@
 For use in ClojureScript projects.
 
 ```Clojure
-[paintparty/pretty-print-plus "0.1.0-SNAPSHOT"]
+[paintparty/pretty-print-plus "0.1.1-SNAPSHOT"]
 ```
 
 Require into your project's `.core` or `.main` namespace

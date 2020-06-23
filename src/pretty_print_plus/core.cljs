@@ -198,7 +198,7 @@
                               (< strlen 50)
                               (< (count pam) 10))
             va           (if single-line? "middle" "top")
-            style        {:style {:color fg-color :vertical-align va}}
+            style        {:style {:color fg-color :vertical-align "top"}}
             cbr-style    {:style {:color fg-color :vertical-align (if single-line? "middle" "bottom")}}]
         (if (empty? pam)
 
